@@ -26,4 +26,8 @@
     header > div {
         flex-direction: column;
     }
+    footer > div {
+        max-width: 100%;
+        justify-content: none;
+    }
 }
