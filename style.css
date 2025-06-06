@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    font-family: "Cascadia", sans-serif;
+}
+body > div {
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+.img1 {
+    object-fit: cover;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+header {
+    border-bottom: 2px solid whitesmoke;
+    margin: 0px auto;
+    max-width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0px 0px 10px 0px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+header > div > a {
+    text-decoration: none;
+    padding: 0px 1vw;
+}
+header > div > a:hover {
+    color: rgb(14, 177, 163);
+    font-size: 1.2rem;
+}
+header > div > a:active {
+    color: brown;
+}
+main {
+    max-width: 80%;
+    margin: 30px auto;
+}
+main > div {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main > div > div {
+    flex-basis: 30%;
+    margin: 10px 0px;
+}
+main > div > div > img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/2;
+    border-radius: 5px;
+}
+footer {
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+
+}
+footer > div {
+    max-width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#ad:hover {
+    color: rgb(14, 177, 163);
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width:786px) {
+    * {
+        font-size: 14px;
+    }
+    body > div {
+        max-width: 95%;
+    }
+    body > div > div {
+        max-width: 95%;
+    }
+    main > div > div {
+    flex-basis: 32%;
+    margin: 2px 0px;
+    }
+    main {
+        max-width: 95%;
+        margin: 10px auto;
+    }
+    header {
+        max-width: 95%;
+    }
+    footer {
+        max-width: 95%;
+        justify-content: none;
+    }
+    header > div {
+        flex-direction: column;
+    }
+}
